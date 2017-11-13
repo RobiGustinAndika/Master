@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/siger"
+    android:padding="10dp"
+    tools:context="com.example.root.ladapai.Main2Activity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/lampung"
+
+        android:src="@drawable/lampung"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp" />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="Tari sembah sigeh penguten merupakan adat budaya lampung yang berasal dari suku Pepadun.
+Semula tarian ini dipersembahkan untuk kedatangan para raja dan tamu-tamu istimewa. Sebagai cara untuk menunjukan keramahan dan kehormatan.
+Mungkn karena hal inilah tari sembah sigeh penguten disebut sebagai tari penyambutan.selain untuk menyambut tamu agung, tari sembah juga diperagakan diacara pernikahan adat lampung,
+fungsinya sebagai acara penyambutan tamu di acara tersebut. Tari sembah sigih penguten dalam setiap penampilannya sangat menonjolkan ciri-ciri budaya adat istiadat lampung,
+terutama dalam busana yang digunakan para penari.busana yang digunakan para penari adalah busana asli daerah yang dikenakan pengantian wanita asli suku lampung lengkap siger dan tanggainya."
+        android:layout_marginTop="28dp"
+        android:textSize="18dp"
+        android:layout_below="@+id/lampung"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
+</ScrollView>

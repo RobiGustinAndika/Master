@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.root.ladapai.Map"
+    android:background="@drawable/bg2"
+    android:padding="10dp"
+    >
+
+   <HorizontalScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true"
+       android:layout_marginTop="339dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+
+           <ImageButton
+               android:id="@+id/imageButton"
+               android:layout_width="220dp"
+               android:layout_height="200dp"
+               android:background="@drawable/smtra"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+                android:onClick="sumatera"
+               android:layout_marginLeft="84dp"
+               android:layout_marginStart="84dp"
+               android:layout_marginBottom="21dp" />
+
+
+           <ImageButton
+               android:id="@+id/imageButton2"
+               android:layout_width="220dp"
+               android:layout_height="200dp"
+               android:layout_marginLeft="57dp"
+               android:layout_marginStart="57dp"
+               android:background="@drawable/jawa"
+               android:layout_alignTop="@+id/imageButton"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+           <ImageButton
+               android:id="@+id/imageButton3"
+               android:layout_width="220dp"
+               android:layout_height="200dp"
+               android:layout_marginLeft="57dp"
+               android:layout_marginStart="57dp"
+               android:background="@drawable/bali2"
+               android:layout_alignTop="@+id/imageButton"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+           <ImageButton
+               android:id="@+id/imageButton4"
+               android:layout_width="220dp"
+               android:layout_height="200dp"
+               android:layout_marginLeft="57dp"
+               android:layout_marginStart="57dp"
+               android:background="@drawable/kalimantan"
+               android:layout_alignTop="@+id/imageButton"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+
+
+
+       </LinearLayout>
+
+
+   </HorizontalScrollView>
+
+</RelativeLayout>
